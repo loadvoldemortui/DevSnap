@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer base {
+  .container {
+    @apply mx-auto px-3 max-w-screen-sm lg:max-w-6xl md:max-w-xl;
+  } 
+}
+
+@layer components {
+  .button {
+    @apply ;
+  }
+}
