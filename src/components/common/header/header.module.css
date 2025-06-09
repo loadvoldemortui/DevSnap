@@ -1,0 +1,16 @@
+.navbar-top {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: #252525;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.clipped-section {
+    background-color: white; 
+    clip-path: polygon(0 50%, 10% 100%, 90% 100%, 100% 50%, 100% 0, 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
