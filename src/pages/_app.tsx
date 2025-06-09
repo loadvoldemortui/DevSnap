@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { AppProps } from "next/app";
 // import localFont from "next/font/local";
-import { geistSans, geistMono } from "../utils/fonts";
+import { geistSans, geistMono, poppins } from "../utils/fonts";
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
-        <div className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className={`${poppins.className} ${geistMono.variable} antialiased`}>
             <Component {...pageProps} />
         </div>
     );
