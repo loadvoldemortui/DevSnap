@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { AppProps } from "next/app";
 // import localFont from "next/font/local";
-import { geistSans, geistMono, poppins } from "../utils/fonts";
+import {  geistMono, poppins } from "../utils/fonts";
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
