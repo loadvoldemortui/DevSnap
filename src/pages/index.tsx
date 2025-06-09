@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Intro from "@/components/homepage/Intro"
+import BoxShadow from "@/components/homepage/BoxShadow"
 
 
 export default function Index() {
@@ -9,7 +10,8 @@ export default function Index() {
                 <title>UiXplore</title>
             </Head>
             <main>
-                <Intro />
+                {/* <Intro /> */}
+                <BoxShadow/>
             </main>
         </>
     )
